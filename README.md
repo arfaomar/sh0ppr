@@ -95,12 +95,20 @@ Before starting, ensure the following are installed:
 
 ### **Running the Application**
 1. Build the application (Note: Ignore warnings about a missing custom 404 page):
+    ```bash
+   next build
+   ```
+   or
    ```bash
    npm run build
    ```
 2. Start the application:
    ```bash
-   npm run start
+   next start
+   ```
+    or
+    ```bash
+   node .next/standalone/server.js
    ```
 3. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
@@ -117,7 +125,10 @@ Before starting, ensure the following are installed:
   ```bash
   docker-compose down --remove-orphans
   ```
-
+- Run in Development Mode:
+    ```bash
+    npm run dev
+    ```
 ---
 
 ## **REST API Reference**

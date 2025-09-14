@@ -2,7 +2,7 @@
 
 A modern, user-friendly shopping list management app powered by **Next.js v14.2.18** with **App Router**, **Drizzle ORM**, and **PostgreSQL**. Organize your shopping, export lists to PDFs, and visually enhance your articles with images fetched from the Pixabay API.
 
-**university Project Imported from GitLab**
+**Advanced Web Development University Project Imported from GitLab**
 
 ---
 
@@ -199,3 +199,4 @@ shopping_list "1" --> "0..*" article_in_shopping_list : contains
 article "1" --> "0..*" article_in_shopping_list : linked to
 
 ```
+
